@@ -1,25 +1,143 @@
 body{
-font-family: "Times New Roman", serif;
-background-color: #F2FFFC;
-text-align: justify;
+    font-family: "Crimson Text", serif;
+    background-color: #F2FFFC;
+    text-align: justify;
+    font-size: 120%;
+    line-height: 1.5;
  }
 
  h1, h2{
      font-family: "Open Sans Condensed", sans-serif;
  }
 
- h1{
+ main h1{
      text-align: center;
      background-color: #851944;
      color: #FFF;
      font-size: 60px; 
+     padding: 25px;
+     border-bottom: 10px solid #000;
+     text-transform: uppercase;
  }
 
  h2{
-     font-size: 40px;
+     font-size: 30px;
+     clear: both;
  }
 
  p{
-     font-family: "Crimson Text", serif;
      text-align: justify;
+     margin: 20px 0;
  }
+
+ blockquote{
+     background-color: #D9E5E3;
+     border: 10px solid #C2CCCA;
+     width: 250px;
+     box-sizing: border-box;
+     margin: 20px 40px;
+ }
+
+ .fiat{
+     float:right;
+ }
+
+ .petrobras{
+     float: left;
+ }
+
+ aside {
+     background-color: #3c1d3d;
+     color: #F2FFFC;
+     text-align: center;
+
+ }
+
+ nav a{
+     color: #F2FFFC;
+     text-transform: lowercase;
+ }
+
+ main a{
+     color: #851944;
+ }
+
+ aside a{
+     color: inherit;
+     font-family: "Open Sans Condensed", sans-serif;
+ }
+
+blockquote, aside, footer{
+    padding: 20px;
+}
+
+main {
+    text-align: center;
+    line-height: 1.5;
+    float: left;
+    width: 85%;
+}
+
+main div{
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.icones-sociais li{
+    display: inline-block;
+}
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    font-size: 0;
+}
+.github{
+    background-image: url(github.png);
+}
+
+.linkedin{
+    background-image: url(linkedin.png);
+}
+
+.twitter{
+    background-image: url(twitter.png);
+}
+
+.fimdapag{
+    background-color: #000;
+    color: #F2FFFC;
+    text-align: center;
+    clear: both;
+}
+.readmore {
+    font-size: 120%;
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: center;
+    display: block;
+    background-color: darkcyan;
+}
+
+cite{
+    font-style: italic;
+    float: right;
+}
+.imgjoao, .navegacao-site{
+    float: right;
+    width: 15%;
+}
